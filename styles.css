@@ -39,7 +39,6 @@ body {
   border-color: blue;
   margin-right: 10px;
   padding: 5px;
-  width: 70%;
 }
 .input-container button {
   padding: 5px 10px;
@@ -61,4 +60,15 @@ body {
 }
 #result {
   display: none;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 300px;
+  }
+  .input-container input {
+    margin-bottom: 10px;
+  }
+  .meaning {
+    font-size: 15px;
+  }
 }
