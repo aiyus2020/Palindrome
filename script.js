@@ -22,8 +22,10 @@ submitButton.addEventListener("click", () => {
   result.style.display = "block"; // Ensure the result is visible
   if (isPalindrome(textInput)) {
     result.textContent = `${inputValue} is a palindrome`;
+    result.style.color = "#2d1148";
   } else {
     result.textContent = `${inputValue} is not a palindrome`;
+    result.style.color = "#f40e31";
   }
 
   textInput.value = "";
